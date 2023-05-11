@@ -1,0 +1,142 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-toggler{
+    margin-left: auto;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+h3,h5{
+   color: white;
+}
+.home{
+    background-color: #BAB4AF;
+    padding-top: 8rem;
+}
+
+.row {
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+/* about css starts here */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 15rem 5rem;
+}
+.cont-text{
+    text-align: center;
+}
+
+
+/* starts skills */
+
+.skills .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card-title{
+    
+    text-align: center;
+}
+.skills{
+    padding: 10em 5rem;
+    background-color: #BAB4AF
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    min-width: 16rem;
+    height: 16rem;
+}
+.card-text{
+    text-align: center;
+
+}
+
+/* my service starts here */
+.Services .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Services{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 5rem;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: 1rem;
+    
+}
+.head{
+    text-align: center;
+    color: #ffffff;
+}
+.sub{
+    text-align: center;
+    padding-top: 1rem;
+}
+.bg-img{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* contact me starts here */
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     
+}
+.mt30{
+    margin-top: 30px;
+}
+.contact{
+    padding: 10rem 5rem;
+    background-color: #BAB4AF
+}
+.space-double{
+    height: 60px;
+    display: block;
+    width: 100%;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+}
