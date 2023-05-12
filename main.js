@@ -5,13 +5,13 @@ const emailInput = document.getElementById('email');
 const phoneInput = document.getElementById('phone');
 const messageInput = document.getElementById('message');
 
-// Add event listener to form submit button
+
 const submitButton = document.getElementById('submit').querySelector('button');
 submitButton.addEventListener('click', (event) => {
-  // Prevent default form submission behavior
+  
   event.preventDefault();
 
-  // Validate form inputs
+  
   let errors = false;
   const nameValue = nameInput.value.trim();
   const emailValue = emailInput.value.trim();
@@ -41,7 +41,7 @@ submitButton.addEventListener('click', (event) => {
     errors = true;
   }
 
-  // If no errors, submit form
+  
   if (!errors) {
     form.submit();
   }
